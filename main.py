@@ -10,7 +10,7 @@ def define_env(env):
     current_year = datetime.now().year
 
     # Explicitly check for missing or empty values and assign defaults
-    request_url = os.getenv('REQUEST_URL') or "request.example.com"
+    request_url = os.getenv('REQUEST_URL') or "overseerr.apolo-srv.synology.me"
     plex_url = os.getenv('PLEX_URL') or "plex.apolo-srv.synology.me"
     plex_libraries = os.getenv('PLEX_LIBRARIES') or "Movies and TV Shows"
     noreply_email = os.getenv('NOREPLY_EMAIL') or "noreply@example.com"
